@@ -1,0 +1,394 @@
+.continar{
+    width: 1226px;
+    margin: 0 auto;
+}
+.nav{
+    background:#333;
+    height: 40px;
+}
+.nav-l{
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+.nav-l a{
+   display: inline-block;
+   line-height: 40px;
+  color:#b0b0b0;
+}
+.nav-l a:hover{
+    color: #fff;
+}
+.nav-l .stp{
+    padding: 0 3px;
+    color: #424242;
+}
+.nav-c{
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+.nav-r{
+    height: 40px;
+    width: 120px;
+    padding-left: 15px;
+    text-align: center;
+    line-height: 40px;
+    float: right;
+}
+.nav-r a{
+    color:#b0b0b0;
+}
+.icon-gouwuche{
+    font-size: 16px;
+}
+.nav-c a{
+    display: inline-block;
+    line-height: 40px;
+    color:#b0b0b0;
+}
+.nav-c a:hover{
+    color: #fff;
+}
+.nav-c .stp{
+    padding: 0 3px;
+    color: #424242;
+}
+#header{
+    font-size: 12px;
+    border-bottom: 2px solid #ff6700;
+    background: #fff;
+    color: #b0b0b0;
+    position: relative;
+    z-index: 20;
+    height: 100px;
+}
+#header .logo{
+    float: left;
+    margin-top: 26px;
+    margin-right:45px ;
+}
+#header .logo a{
+    display: block;
+    width: 48px;
+    height: 48px;
+    background:#ff6700 ;
+    text-align: center;
+    line-height: 55px;
+}
+.logo .icon-xiaomi{
+    color: #fff;
+    font-size: 36px;
+   
+}
+.logo-l{
+    float: left;
+    width: 140px;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 26px;
+}
+.logo-l h2{
+    font-size: 28px;
+    color: #424242;
+}
+.site-header{
+    padding-top: 38px; 
+    background: #f5f5f5;
+    padding-bottom: 30PX;
+}
+.list-head{
+    background: #fff;
+    
+}
+.tip{
+   text-align: right;
+    font-size: 14px;
+    color: rgba(0 ,0, 0 ,0.54);
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 13px;
+}
+.tip span{
+    color: #ff6700;
+}
+.tip a{
+    color: rgba(0 ,0, 0 ,0.87);
+    margin-left: 12px;
+}
+.col-check{
+    width: 110px;
+    height: 70px;
+    margin-right:120px ;
+    font-size: 14px;
+    color: #424242;
+    float: left;
+    line-height: 70px;
+    text-align: center;
+}
+.txt{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.col h3{ 
+    width: 380px;
+    height: 70px;
+    font-size: 14px;
+    color: #424242;
+    float: left;
+    line-height: 70px;
+    text-align: left;
+}
+.col-price ul{
+    float: left;
+}
+.col-price ul li{
+    float: left;
+    font-size: 14px;
+    color: #424242;
+    width: 154px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.item-box1{
+    padding: 15px 0;
+}
+.item-box1 ul{
+    width: 1226px;
+    height: 90px;
+}
+.txte{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    
+}
+.list-1{
+    width: 80px;
+    height: 90px;
+    font-size: 14px;
+    color: #424242;
+    float: left;
+    line-height: 90px;
+    padding-left: 30px;
+}
+.list-2 img{
+    float: left;
+    width: 80px;
+    height: 80px; 
+    margin: 5px 20px 0;
+
+}
+button{
+    cursor: pointer;
+}
+.list-3  h3{ 
+    width: 380px;
+    height: 70px;
+    font-size: 14px;
+    color: #424242;
+    float: left;
+    line-height: 70px;
+    text-align: left;
+}
+.list-4,.list-5,.list-6,.list-7{
+    float: left;
+    font-size: 14px;
+    color: #424242;
+    width: 154px;
+    height:90px;
+    line-height: 90px;
+    text-align: center;
+}
+.change-goods-nu{
+    width: 148px;
+    height: 38px;
+    border: 1px solid #000;
+    margin-top: 25px;
+}
+.list-4,.list-6{
+    color: #ff6700;
+    font-size:24px ;
+}
+.box-1 .cutNum {
+    width: 38px;
+    height: 38px;
+    line-height:38px;
+    float: left;
+    border: 0;
+}
+.box-2 .tt{
+    float: left;
+    width: 72px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    border-width: 0;
+    color: #424242;
+    text-align: center;
+}
+.box-3 .addNum{
+    width: 38px;
+    height: 38px;
+    line-height:38px;
+    float: left;
+    border: 0;
+}
+.section{
+height: 50px;
+margin-top: 20px;
+background: #fff;
+}
+.section-left{
+    float: left;
+}
+.section-left{
+    line-height: 50px;
+    margin-left: 32px;
+}
+.section-left a{
+    font-size: 14px;
+    color: #757575;
+    margin-right: 16px;
+}
+.section-left span{
+    font-size: 14px;
+    color: #757575;
+    padding-left: 16px;
+}
+.section-right{
+    float: right
+}
+.section-right span{
+    font-size: 14px;
+    color: #757575;
+}
+.section-right span em{
+    font-size: 30px;
+    color:#ff6700;
+}
+.section-right a{
+    display: inline-block;
+    width: 200px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    border: 1px solid #ff6700;
+    margin-left: 50px;
+    text-align: center;
+    background: #ff6700;
+    color: #fff;  
+}
+
+
+
+
+
+
+
+
+#footer{
+    height: 292px;
+}
+.footer-t{
+    overflow: hidden;
+}
+.footer-service{
+    overflow: hidden;
+    border-bottom: 1px solid #e0e0e0; 
+}
+.footer-service ul li{
+    float: left;
+    padding: 27px 0;
+    line-height: 25px;
+    text-align: center;
+}
+.footer-service ul li a{
+    display: block;
+    width: 243px;
+    height: 25px;
+    border-right: 1px solid #e0e0e0;
+    font-size: 16px;
+    color: #616161;
+}
+i{
+    vertical-align: middle;
+    margin-right:5px ;
+}
+.footer-service ul li a:hover{
+    color:#ff6700;
+}
+.list{
+    padding-top:40px ;
+}
+.list-l{
+    width: 973px;
+    height: 172px;
+    float: left;
+}
+.list dl{
+    float: left;
+    width: 160px;
+    height: 112px;
+}
+.list dl dt{
+    font-size: 14px;
+    margin-bottom: 26px;
+   color: #424242;
+}
+.list dl dd a{
+    display: block;
+    margin-bottom: 10px;
+    color: #757575;
+}
+.list-r{
+    float: left;
+    width: 252px;
+    height:112px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+}
+.icon-xiaoxi{
+    font-size: 12px;
+    text-align: center;
+}
+.p1{
+    font-size: 22px;
+    color: #ff6700;
+    margin-bottom: 5px;
+}
+.p2{
+    margin-bottom: 5px; 
+}
+.list-r .a1{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #ff6700;
+    line-height: 30px;
+    color: #ff6700;
+    margin-bottom: 10px;
+}
+.list-r .box img{
+   width: 24px;
+   height: 24px;
+}
+.list-r .a1:hover{
+    background:#ff6700; 
+    color: #fff;
+}
+.cp{
+    height:230px ;
+}
+.cp p{
+    padding: 14px 0;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.cp p a{
+    height: 16px;
+    line-height: 16px;
+    color: #757575;
+}

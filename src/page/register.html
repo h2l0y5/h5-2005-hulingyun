@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/reset.css">
+    <link rel="stylesheet" href="./../css/iconfont.css">
+    <link rel="stylesheet" href="./../css/02.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="continar">
+            <div class="logo"> 
+                <h1><a href="#" title="小米商城"><img src="./../image/11.png" /></a></h1>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <a href="#">小米网</a>
+    </div>
+    <div class="w-box">
+        <div class="w-top">
+            <a href="#" class="on">帐号注册</a>
+            <span class="line"></span>
+            <a href="#">扫码注册</a>
+        </div>
+        <div class="bg">
+            <input type="text" placeholder="邮箱/手机号码小米ID" class="txt" id="un">
+            <input type="text" placeholder="密码" class="txt" id="pw">
+            <input type="button" value="注册" id="submit">
+            <span class="p1">
+                <a href="#">手机短信登录注册</a>
+            </span>
+            <span class="p2">
+                <a href="#">立即注册</a><em>|</em><a href="#">忘记密码?</a>
+            </span><hr>
+            <p class="p4">其他方式注册</p>
+            <div class="box-mge">
+                <a href="#"><i class="iconfont icon-qq"></i></a>
+                <a href="#"><i class="iconfont icon-weibo"></i></a>
+                <a href="#"><i class="iconfont icon-zhifubao"></i></a>
+                <a href="#"><i class="iconfont icon-weixin"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="nav continar">
+            <ul>
+                <li><a href="#">简体</a>|</li>
+                <li><a href="#">繁体</a>|</li>
+                <li><a href="#">English</a>|</li>
+                <li><a href="#">English</a>|</li>
+                <li><a href="#">常见问题</a>|</li>
+                <li><a href="#">隐私政策</a></li>
+            </ul> 
+        </div>
+        <div class="foot-l continar">
+                <p>小米公司版权所有-京ICP备10046444-<a href="#"><img src="./../image/15.png" alt="">京公网安备11010802020134</a>京ICP证110507号</p>
+        </div>
+    </div>  
+    
+    <script src="./../lib/jquery-1.12.4.js"></script>
+    <script>
+        $("#submit").click(function(){
+          $.ajax({
+              method:"post",
+              url:"./../php/register.php",
+              data:{
+                  username:$("#un").val(),
+                  password:$("#pw").val()
+              },
+              success:function(data){
+                if(data.code==1){
+                    localStorage.setItem('un',data.data.username); 
+                    location.href="./login.html" 
+                }else{
+                    alert(data.msg)
+                }
+            },
+            dataType:'json'
+          })
+        })
+    </script>

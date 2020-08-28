@@ -1,0 +1,186 @@
+#header{
+    height: 98px;
+}
+.continar{
+    width: 1226px;
+    margin: 0 auto;
+}
+.logo a{
+    display: block;
+    width: 200px;
+    height: 98px;
+    line-height: 98px;
+}
+.banner a{
+    display: block;
+    height: 588px;
+    text-indent: -9999px;
+    background: url(../image/08.jpg) no-repeat;
+    background-position: 50%;
+    position: relative;
+    margin-bottom: 100px;
+}
+.w-box{
+    width: 410px;
+    height: 558px;
+    background: #fff;
+    z-index: 1;
+    position:absolute;
+    top:128px;
+    right: 195px;
+}
+.w-top{
+    width: 410px;
+    height: 32px;
+    padding:27px 0 24px 0 ;
+    text-align: center;
+    line-height: 32px;
+}
+.w-top a{
+    font-size: 24px;
+    color: #666;
+}
+.w-top .on{
+    color: #f56600;
+    z-index: 21;
+}
+.line {
+    width: 1px;
+    height: 24px;
+    margin: 0 35px 0 42px;
+    border: 1px solid #999999;
+}
+.w-top a:hover{
+    color: #f56600;
+}
+.bg{
+    width: 410px;
+    height: 475px;
+    position: relative;
+}
+.txt{
+    display: block;
+    width: 346px;
+    height: 48px;
+    line-height: 48px;
+     border:0;
+    border:1px solid #999999;
+    font-size: 14px;
+    color: #999999;
+    margin: 0 auto 14px;
+    padding-left:14px ;
+}
+#submit{
+    display: block;
+    width: 346px;
+    height: 50px;
+    border: 0;
+    background: #f56600;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    margin: 24px auto 14px;
+}
+.p1{
+    display: block;
+    width: 410px;
+    height: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.p1 a{
+    font-size: 14px;
+    color: #f56600;
+}
+.p2{
+    display: block;
+    width: 410px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 143px; 
+   
+}
+.p2 a{
+    font-size: 14px;
+    color: #999999;
+    vertical-align: middle;
+}
+em{
+    margin: 0 5px 0 5px;
+    color: #999999;
+}
+hr{
+    display: block;
+    width: 348px;
+    height: 1px;
+    background: #999999;;
+    border: 0;
+    margin-bottom:30px ;
+}
+.p4{
+    font-size: 14px;
+    color: #999999; 
+    margin: 0 auto;
+    width: 84px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    position: absolute;
+    top: 405px;
+    left:163px;
+}
+.box-mge {
+    text-align: center;
+}
+.box-mge a{
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #0288d1;
+    padding: 0 13px;
+}
+
+.box-mge a i{
+    font-size: 30px;
+}
+.icon-weibo{
+    color: #D32F2F;
+}
+.icon-zhifubao{
+    color: #00AAEE;
+}
+.icon-weixin{
+    color: #00d20d;
+}
+.footer{
+    height: 80px;
+}
+.nav ul{
+    height: 20px;
+    margin-left:415px;
+}  
+.nav ul li{
+    height: 20px;
+    line-height: 20px;
+    
+    
+}
+.nav ul li{
+    float: left;
+   
+}
+.nav ul li a{
+    padding: 0 10px;
+    font-size: 14px;
+    color: #999999;
+}
+.foot-l p{
+   text-align: center;
+   padding: 10px;
+   font-size: 14px;
+   color: #999999;
+}
